@@ -77,10 +77,10 @@ import shutil
 
 #ideas:
 # loop through the directory to make a dictionary for each letter of the alphabet
-alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "y", "z"]
+alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
 
-# for letter in alphabet:
-	#os.mkdir(letter)
+for letter in alphabet:
+	os.mkdir(letter)
 # loop through the files and only check the first letter
 # put each file in the corresponding letter directory
 
@@ -88,8 +88,60 @@ alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n"
 path = "/Users/ashleyluhrs/Documents/Hackbright/Week1Project/files"
 dirs = os.listdir(path)
 # will i need to go through each letter of the alphabet?
-for files in dirs: 
-	shutil.move(path, )
+for files in dirs:
+	if files[0] == "a": 	
+		shutil.move(path + "/" + files, "/Users/ashleyluhrs/Documents/Hackbright/Week1Project/a/")
+	elif files[0] == "b": 	
+		shutil.move(path + "/" + files, "/Users/ashleyluhrs/Documents/Hackbright/Week1Project/b/")
+	elif files[0] == "c": 	
+		shutil.move(path + "/" + files, "/Users/ashleyluhrs/Documents/Hackbright/Week1Project/c/")
+	elif files[0] == "d": 	
+		shutil.move(path + "/" + files, "/Users/ashleyluhrs/Documents/Hackbright/Week1Project/d/")
+	elif files[0] == "e": 	
+		shutil.move(path + "/" + files, "/Users/ashleyluhrs/Documents/Hackbright/Week1Project/e/")
+	elif files[0] == "f": 	
+		shutil.move(path + "/" + files, "/Users/ashleyluhrs/Documents/Hackbright/Week1Project/f/")
+	elif files[0] == "g": 	
+		shutil.move(path + "/" + files, "/Users/ashleyluhrs/Documents/Hackbright/Week1Project/g/")
+	elif files[0] == "h": 	
+		shutil.move(path + "/" + files, "/Users/ashleyluhrs/Documents/Hackbright/Week1Project/h/")
+	elif files[0] == "i": 	
+		shutil.move(path + "/" + files, "/Users/ashleyluhrs/Documents/Hackbright/Week1Project/i/")
+	elif files[0] == "j": 	
+		shutil.move(path + "/" + files, "/Users/ashleyluhrs/Documents/Hackbright/Week1Project/j/")
+	elif files[0] == "k": 	
+		shutil.move(path + "/" + files, "/Users/ashleyluhrs/Documents/Hackbright/Week1Project/k/")
+	elif files[0] == "l": 	
+		shutil.move(path + "/" + files, "/Users/ashleyluhrs/Documents/Hackbright/Week1Project/l/")
+	elif files[0] == "m": 	
+		shutil.move(path + "/" + files, "/Users/ashleyluhrs/Documents/Hackbright/Week1Project/m/")
+	elif files[0] == "n": 	
+		shutil.move(path + "/" + files, "/Users/ashleyluhrs/Documents/Hackbright/Week1Project/n/")
+	elif files[0] == "o": 	
+		shutil.move(path + "/" + files, "/Users/ashleyluhrs/Documents/Hackbright/Week1Project/o/")
+	elif files[0] == "p": 	
+		shutil.move(path + "/" + files, "/Users/ashleyluhrs/Documents/Hackbright/Week1Project/p/")
+	elif files[0] == "q": 	
+		shutil.move(path + "/" + files, "/Users/ashleyluhrs/Documents/Hackbright/Week1Project/q/")
+	elif files[0] == "r": 	
+		shutil.move(path + "/" + files, "/Users/ashleyluhrs/Documents/Hackbright/Week1Project/r/")
+	elif files[0] == "s": 	
+		shutil.move(path + "/" + files, "/Users/ashleyluhrs/Documents/Hackbright/Week1Project/s/")
+	elif files[0] == "t": 	
+		shutil.move(path + "/" + files, "/Users/ashleyluhrs/Documents/Hackbright/Week1Project/t/")
+	elif files[0] == "u": 	
+		shutil.move(path + "/" + files, "/Users/ashleyluhrs/Documents/Hackbright/Week1Project/u/")
+	elif files[0] == "v": 	
+		shutil.move(path + "/" + files, "/Users/ashleyluhrs/Documents/Hackbright/Week1Project/v/")
+	elif files[0] == "w": 	
+		shutil.move(path + "/" + files, "/Users/ashleyluhrs/Documents/Hackbright/Week1Project/w/")
+	elif files[0] == "x": 	
+		shutil.move(path + "/" + files, "/Users/ashleyluhrs/Documents/Hackbright/Week1Project/x/")
+	elif files[0] == "y": 	
+		shutil.move(path + "/" + files, "/Users/ashleyluhrs/Documents/Hackbright/Week1Project/y/")
+	elif files[0] == "z": 	
+		shutil.move(path + "/" + files, "/Users/ashleyluhrs/Documents/Hackbright/Week1Project/z/")
+	
 
 
 
